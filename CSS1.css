@@ -1,0 +1,160 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    background: url(https://www.thelist.com/img/gallery/what-we-know-about-central-perk-on-friends/l-intro-1621444867.jpg);
+    height:  0vh;
+    background-position:center;
+    background-size: cover;
+}
+
+.login{
+width: 320px;
+height: 300px;
+background: black;
+color: white;
+top: 50%;
+left: 15%;
+position: absolute;
+transform: translate(-50%, -50%);
+box-sizing: border-box;
+padding: 70px 30px;
+}
+
+.avatar{
+
+
+width: 100px;
+height: 100px;
+border-radius: 50%;
+position: absolute;
+top: -50px;
+
+
+}
+
+.h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.login p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.login input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+    color: white;
+    height: 40px;
+}
+
+.login input[type="button"]
+{
+    border:none;
+    outline: none;
+    height: 40px;
+    background: green;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.login input[type="button"]:hover
+{
+    cursor: pointer;
+    background: orange;
+    color: black;
+}
+
+.login a{
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+    text-decoration: none;
+}
+
+
+
+
+
+.register{
+    width: 320px;
+    height: 400px;
+    background: black;
+    color: white;
+    top: 50%;
+    left: 85%;
+    position: absolute;
+    transform: translate(-50%, -50%); 
+    box-sizing: border-box;
+    padding: 70px 30px;
+
+}
+
+
+.reg{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+   
+}
+
+.register input[type="button"]
+{
+    border:none;
+    outline: none;
+    height: 40px;
+    background: green;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.register input[type="button"]:hover
+{
+    cursor: pointer;
+    background: orange;
+    color: black;
+}
+
+.register a{
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+    text-decoration: none;
+}
+
+.register p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.register input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.register input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+    color: white;
+}
