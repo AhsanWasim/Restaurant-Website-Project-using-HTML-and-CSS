@@ -1,0 +1,136 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+font-family: sans-serif;
+}
+
+.menu{
+    padding: 0 10px 30px 10px;
+    display: grid;
+    grid-gap: 20px 40px;
+    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+}
+
+.heading{
+    background-color: orange;
+    color: white;
+    padding: 30px 0;
+    margin-bottom: 30px ;
+    grid-column: 1/-1;
+    text-align: center;
+}
+
+.heading>h1{
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+}
+
+.heading>h3{
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 5px;
+
+}
+
+.foodis{
+    box-shadow: 0 0 15px black;
+    display: grid;
+    position: relative;
+    border-radius: 15px;
+    grid-template-rows: auto 1fr;
+}
+
+.foodis img{
+    position: relative;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+h1{
+    text-align: center;
+ 
+}
+
+.details1{
+
+    display: grid;
+    grid-template-rows: auto 1fr 50px;
+    grid-row-gap: 15px;
+}
+.details2{
+    grid-template-columns: auto auto;
+display: grid;
+}
+
+.details2>h5{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.details1>button{
+background-color: indianred;
+color: ivory;
+font-weight: 600;
+width: 180px;
+font-size: 16px;
+border-radius: 5px;
+border: none;
+}
+
+.details1>button:hover{
+    cursor: pointer;
+    background: orange;
+    color: black;
+    }
+
+
+.details1>p{
+    color: grey;
+    font-weight: 400;
+    font-size: 15px;
+    width: 180px;
+    border-radius: 5px;
+}
+.price{
+    text-align: right;
+}
+
+
+
+.nav-links{
+    
+    text-align: right;
+
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
